@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app">
+        <h1 class='title'>Weather App</h1>
+        <header>
+            <input type="text" autocomplete="off" placeholder="Search for city" class='search-box'>
+        </header>
+        <main>
+            <div class="location">
+                <div class="city">----, --</div>
+                <div class="date">---- ------- - ----</div>
+            </div>
+            <div class="current">
+                <div class="temp">--<span>°F</span></div>
+                <div class="desc">-----</div>
+                <div class="hi-low">--°F/--°F</div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="./config.mjs"></script>
+    <script type="module" src="./main.mjs"></script>
+</body>
+</html>
